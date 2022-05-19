@@ -1,8 +1,8 @@
 {
-  "name": "docxtemplater-image-module-free",
+  "name": "docxtemplater-image-module-free-browserify",
   "version": "1.1.1",
   "description": "Open Source Image Module for docxtemplater",
-  "main": "js/index.js",
+  "main": "build/imagemodule.js",
   "scripts": {
     "test:coverage": "istanbul cover _mocha --  es6/test.js",
     "compile": "rimraf js && mkdirp js && babel es6 --out-dir js",
@@ -37,6 +37,7 @@
   "author": "Dk Saha",
   "license": "MIT",
   "dependencies": {
+    "docxtemplater-image-module-free": "^1.1.1",
     "xmldom": "^0.1.27"
   }
 }
