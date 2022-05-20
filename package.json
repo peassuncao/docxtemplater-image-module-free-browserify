@@ -1,7 +1,7 @@
 {
   "name": "docxtemplater-image-module-free-browserify",
-  "version": "1.1.1",
-  "description": "Open Source Image Module for docxtemplater",
+  "version": "1.1.2",
+  "description": "Open Source Image Module for docxtemplater with  browserify",
   "main": "build/imagemodule.js",
   "scripts": {
     "test:coverage": "istanbul cover _mocha --  es6/test.js",
@@ -32,9 +32,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/evilc0des/docxtemplater-image-module-free"
+    "url": "https://github.com/evilc0des/docxtemplater-image-module-free-browserify"
   },
-  "author": "Dk Saha",
+  "author": "Dk Saha + peassuncao(browserify)",
   "license": "MIT",
   "dependencies": {
     "docxtemplater-image-module-free": "^1.1.1",
